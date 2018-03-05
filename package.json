@@ -1,0 +1,25 @@
+{
+  "name": "resumeyutingxie",
+  "version": "1.0.0",
+  "description": "A resume app ",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -p --progress --config webpack.config.js",
+    "dev-build": "webpack --progress -d --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --progress -d --config webpack.config.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dabingcheerup/ResumeYutingXie.git"
+  },
+  "author": "Yuting Xie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dabingcheerup/ResumeYutingXie/issues"
+  },
+  "homepage": "https://github.com/dabingcheerup/ResumeYutingXie#readme",
+  "devDependencies": {
+    "webpack": "^4.1.0"
+  }
+}
