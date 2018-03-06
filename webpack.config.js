@@ -1,4 +1,6 @@
 const webpack = require("webpack");
+const TransferWebpackPlugin = require("transfer-webpack-plugin");
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const config = {
   entry: __dirname + "/src/js/index.jsx",
   output: {
