@@ -16,6 +16,14 @@ const config = {
         use: "babel-loader"
       }
     ]
-  }
+  },
+  plugins: [
+    new webpack.ProvidePlugin({
+      $: "jquery",
+      jQuery: "jquery",
+      "window.jQuery": "jquery",
+      Popper: ["popper.js", "default"]
+    })
+  ]
 };
 module.exports = config;
