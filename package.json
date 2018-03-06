@@ -40,9 +40,18 @@
     "webpack-cli": "^2.0.10"
   },
   "babel": {
-    "presets": ["es2015", "react"]
+    "presets": [
+      "es2015",
+      "react"
+    ]
   },
   "dependencies": {
-    "bootstrap": "^4.0.0"
+    "autoprefixer": "^8.1.0",
+    "bootstrap": "^4.0.0",
+    "exports-loader": "^0.7.0",
+    "imports-loader": "^0.8.0",
+    "postcss-loader": "^2.1.1",
+    "precss": "^3.1.2",
+    "tether": "^1.4.3"
   }
 }
