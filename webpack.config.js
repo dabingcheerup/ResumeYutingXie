@@ -4,13 +4,11 @@ const config = {
   entry: __dirname + "/src/js/index.jsx",
   output: {
     path: __dirname + "/src/dist",
-    filename: "bundle.js",
-    sourceMapFilename: "bundle.map.js"
+    filename: "bundle.js"
   },
   resolve: {
     extensions: [".js", ".jsx", ".css"]
   },
-  devtool: "#source-map",
   module: {
     rules: [
       {
@@ -20,7 +18,7 @@ const config = {
       },
       {
         test: /\.css$/,
-        use: ["style-loader, css-loader"]
+        use: ["style-loader", "css-loader"]
       },
       {
         test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2)$/,
@@ -66,7 +64,11 @@ const config = {
       $: "jquery",
       jQuery: "jquery",
       "window.jQuery": "jquery",
-      Popper: ["popper.js", "default"]
+      Tether: "tether",
+      Popper: ["popper.js", "default"],
+      // In case you imported plugins individually, you must also require them here:
+      Util: "exports-loader?Util!bootstrap/js/dist/util",
+      Dropdown: "exports-loader?Dropdown!bootstrap/js/dist/dropdown"
     })
   ]
 };

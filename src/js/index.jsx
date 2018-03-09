@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "bootstrap";
 import App from "./App";
+import "bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-/*ReactDOM.render(<App />, document.getElementById("content"));
-*/
+//ReactDOM.render(<App />, document.getElementById("content"));
