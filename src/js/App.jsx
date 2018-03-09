@@ -1,5 +1,6 @@
-// App.jsx
+/* App.jsx
 import React from "react";
+import ReactDOM from "react-dom";
 import { Button } from "react-bootstrap";
 
 export default class App extends React.Component {
@@ -7,3 +8,4 @@ export default class App extends React.Component {
     return <button> Hello React!</button>;
   }
 }
+*/
