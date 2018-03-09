@@ -1,3 +1,4 @@
+//import webpack npm module
 const webpack = require("webpack");
 const TransferWebpackPlugin = require("transfer-webpack-plugin");
 const config = {
@@ -22,6 +23,11 @@ const config = {
     loaders: [
       // Process any .js or .jsx file with Babel
       {
+        test: /\.jsx?$/,
+        exclude: /node_modules/,
+        loaders: ["babel-loader"]
+      },
+      {
         test: /\.css$/,
         loader: "style-loader!css-loader"
       },
@@ -30,14 +36,6 @@ const config = {
         loader: "url-loader",
         options: {
           limit: 10000
-        }
-      },
-      {
-        test: /.js$/,
-        loader: "babel",
-        exclude: /node_modules/,
-        query: {
-          presets: ["es2015", "react"]
         }
       }
     ]
