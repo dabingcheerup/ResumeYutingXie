@@ -41,7 +41,10 @@
     "webpack-cli": "^2.0.10"
   },
   "babel": {
-    "presets": ["es2015", "react"]
+    "presets": [
+      "es2015",
+      "react"
+    ]
   },
   "dependencies": {
     "autoprefixer": "^8.1.0",

@@ -31,6 +31,14 @@ const config = {
         options: {
           limit: 10000
         }
+      },
+      {
+        test: /.js$/,
+        loader: "babel",
+        exclude: /node_modules/,
+        query: {
+          presets: ["es2015", "react"]
+        }
       }
     ]
   },
