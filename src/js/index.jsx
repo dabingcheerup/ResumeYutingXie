@@ -7,8 +7,23 @@ import "font-awesome/css/font-awesome.min.css";
 import fontawesome from "@fortawesome/fontawesome";
 import FontAwesomeIcon from "@fortawesome/react-fontawesome";
 import brands from "@fortawesome/fontawesome-free-brands";
-import { faCheckSquare, faCoffee } from "@fortawesome/fontawesome-free-solid";
+import {
+  faWrench,
+  faGraduationCap,
+  faFile,
+  faBriefcase,
+  faLanguage
+} from "@fortawesome/fontawesome-free-solid";
 
-fontawesome.library.add(brands, faCheckSquare, faCoffee);
+fontawesome.library.add(
+  brands,
+  faGraduationCap,
+  faWrench,
+  faFile,
+  faBriefcase,
+  faLanguage
+);
+//automatic svg replacement
+fontawesome.dom.i2svg();
 
-ReactDOM.render(<App />, document.getElementById("content"));
+//ReactDOM.render(<App />, document.getElementById("edu"));

@@ -4,7 +4,7 @@ import ReactDOM from "react-dom";
 import { Button } from "react-bootstrap";
 import FontAwesomeIcon from "@fortawesome/react-fontawesome";
 
-export default class App extends React.Component {
+/*export default class App extends React.Component {
   render() {
     return (
       <div>
@@ -14,3 +14,4 @@ export default class App extends React.Component {
     );
   }
 }
+*/
