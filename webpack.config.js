@@ -1,5 +1,6 @@
 //import webpack npm module
 const webpack = require("webpack");
+const FontAwesome = require("@fortawesome/react-fontawesome");
 const config = {
   entry: __dirname + "/src/js/index.jsx",
   output: {
