@@ -3,7 +3,6 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "font-awesome/css/font-awesome.min.css";
 import fontawesome from "@fortawesome/fontawesome";
 import FontAwesomeIcon from "@fortawesome/react-fontawesome";
 import brands from "@fortawesome/fontawesome-free-brands";
@@ -26,4 +25,4 @@ fontawesome.library.add(
 //automatic svg replacement
 fontawesome.dom.i2svg();
 
-//ReactDOM.render(<App />, document.getElementById("edu"));
+//ReactDOM.render(<App />, document.getElementById("content"));
