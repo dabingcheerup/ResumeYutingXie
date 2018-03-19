@@ -43,8 +43,13 @@
     "webpack-cli": "2.0.10"
   },
   "babel": {
-    "presets": ["es2015", "react"],
-    "plugins": ["transform-class-properties"]
+    "presets": [
+      "es2015",
+      "react"
+    ],
+    "plugins": [
+      "transform-class-properties"
+    ]
   },
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.4",
@@ -52,6 +57,7 @@
     "@fortawesome/fontawesome-free-solid": "^5.0.8",
     "@fortawesome/react-fontawesome": "0.0.17",
     "bootstrap": "^4.0.0",
+    "devicon": "^2.0.0",
     "exports-loader": "^0.7.0",
     "font-awesome": "^4.7.0",
     "import-loader": "^1.0.1",
