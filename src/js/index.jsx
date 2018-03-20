@@ -3,8 +3,6 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "devicon";
-import "devicon/devicon.min.css";
 import fontawesome from "@fortawesome/fontawesome";
 import FontAwesomeIcon from "@fortawesome/react-fontawesome";
 import brands from "@fortawesome/fontawesome-free-brands";
